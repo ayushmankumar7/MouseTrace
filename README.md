@@ -9,3 +9,6 @@ run  python main.py --t
 
 Takes time arguments --> int 
 
+
+![](ss_gif.gif)
+
