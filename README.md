@@ -1,13 +1,27 @@
 # MouseTrace
 
+### Clone
+> Clone the Repo First
 
-run python main.py 
+'''shell 
+$ git clone https://github.com/ayushmankumar7/MouseTrace.git
+'''
+### Run 
+> Run Python File 
+'''shell
+$ python main.py
+'''
 
+> Run with "time" argument-  '--t'
+
+'''shell
+$ python main.py --t 15
+
+'''
+Script runs for 15 secs. 
+! Argument takes 'int' values 
 default_time = 10 sec 
-
-run  python main.py --t 
-
-Takes time arguments --> int 
+ 
 
 
 ![](ss_gif.gif)
