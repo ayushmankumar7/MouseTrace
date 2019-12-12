@@ -8,7 +8,7 @@ import sys
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--t', type=int, default=10, help="Time the Program has to Run. Default 10")
+parser.add_argument('--t', type=int, default=10, help="Time the Program has to Run. Default 10")  # Argument accepted here
 
 arg = parser.parse_args()
 t = arg.t
@@ -19,7 +19,7 @@ m = Controller()
 def scaleDown(x, y):
     
     return((x/1366 * 640), (y/768*480))
-a = []
+
 img = np.zeros((480, 640, 3))
 def on_move(x,y):
     print(f"Position : {scaleDown(x,y)}")
@@ -43,7 +43,7 @@ print(scaleDown(1366, 768))
 
 l = Listener(on_move = on_move)
 l.start()
-time.sleep(t)
+time.sleep(t)  # Argument is used here
 l.stop()
 l.join()
 

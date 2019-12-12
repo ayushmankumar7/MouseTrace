@@ -19,7 +19,8 @@ $ python main.py --t 15
 
 ```
 Script runs for 15 secs. 
-! Argument takes 'int' values 
+! Argument takes 'int' values.
+
 default_time = 10 sec 
  
 
